@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#666;
+    padding: 30px;
+    text-align: center;
+    font-size: 30;
+    color: white;
+}
+
+nav {
+    width:100%;
+    background-color:#302b2b;
+    
+}
+
+nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding:0; 
+    overflow: hidden;
+
+}
+
+nav li {float:left;}
+
+nav li a {
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 20px 100px;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.container {
+    align-self: center;
+}
+
+.eevee {
+    position:absolute;
+    z-index: 2;
+    animation-name: disappear;
+    animation-duration: 10s;
+    width: 50%;
+    top: 30%;
+    left: 25%;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
+
+.snorlex {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    top: 30%;
+    left: 25%;
+}
+
+@keyframes disappear {
+    from {opacity: 1.0;}
+    to {opacity: 0;}
+}  
+
+footer{
+    background-color:#777;
+    padding:10px;
+    color:white;
+    text-align:center;
+}
+
+table {
+    text-align: center;
+    padding: 10px 10%;
+    border: 0;
+    width: 100%;
+}
+caption {
+    font-size: larger;
+    padding-top:50px;
+}
+tr {
+    height:100px;
+    padding: 10px;
+}
+tr:nth-child(even){background-color: rgb(192, 235, 221);}
+tr:nth-child(odd){background-color: rgb(217, 216, 238);}
+th {width: 30%;}
+td {
+    width: 70%;
+}
+
+ul{padding: 0;}
+ul li {list-style-position: inside;}
+
+.company{
+    text-align: center;
+}
+
+.responsibility{
+    padding:5px 25%;
+    text-align: left;
+}
+
