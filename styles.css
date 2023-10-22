@@ -43,25 +43,28 @@ nav li a:hover {
 
 .container {
     align-self: center;
+    overflow: hidden;
 }
 
 .eevee {
+    float: left;
     position:absolute;
     z-index: 2;
     animation-name: disappear;
     animation-duration: 10s;
     width: 50%;
-    top: 30%;
+    top: auto;
     left: 25%;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
   }
 
 .snorlex {
+    float: left;
     position: absolute;
     z-index: 1;
     width: 50%;
-    top: 30%;
+    top: auto;
     left: 25%;
 }
 
