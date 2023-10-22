@@ -24,7 +24,7 @@ nav ul {
 
 }
 
-nav li {float:left;}
+nav li {float:left;width: auto;}
 
 nav li a {
     display:block;
@@ -82,7 +82,7 @@ footer{
 
 table {
     text-align: center;
-    padding: 10px 10%;
+    
     border: 0;
     width: 100%;
 }
