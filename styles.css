@@ -22,9 +22,17 @@ header{
     font-size: 30;
 }
 
-@media screen and (max-width: 760px) {
+.responsibility{
+    padding:5px 25%;
+    text-align: left;
+}
+
+@media screen and (max-width: 900px) {
     .menu {
         width: 100%;
+    }
+    .responsibility{
+        padding:5px 0;
     }
 }
 
@@ -103,8 +111,4 @@ ul li {list-style-position: inside;}
     text-align: center;
 }
 
-.responsibility{
-    padding:5px 25%;
-    text-align: left;
-}
 
